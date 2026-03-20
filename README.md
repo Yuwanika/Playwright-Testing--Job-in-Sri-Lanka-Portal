@@ -1,45 +1,63 @@
-# 🎭 Playwright Testing -- Job in Sri Lanka Portal
-
-## 📌 Project Overview
-
-This project contains end-to-end automation testing for a Job Portal
-system using Playwright. It covers roles like Admin, Employer, and
-Candidate.
-
-## 🚀 Tech Stack
-
--   Playwright
--   TypeScript 
--   Node.js
--   VS Code
+# Jobs in Sri Lanka Web Portal  
 
 
-## ⚙️ Setup Instructions
 
-### Clone Repository
+## 📌 Overview  
+**Jobs in Sri Lanka** is a web-based job portal designed to connect job seekers and employers through a centralized platform.  
+It provides seamless job browsing, application management, and recruitment workflows with role-based access.
 
-git clone https://github.com/your-username/your-repo-name.git
+---
 
-### Install Dependencies
+## ✨ Features  
 
-npm install
+### 🌍 Public Portal  
+- Browse jobs without registration  
+- Advanced job filtering  
+- View job details  
+- Share jobs via social media  
 
-### Install Browsers
+### 👤 Candidate Module  
+- Secure registration & login  
+- Profile & CV management  
+- Apply for jobs  
+- Track application status  
 
-npx playwright install
+### 🏢 Company Module  
+- Manage company profile  
+- View and manage applicants  
+- Update application status  
+- Export applicant data  
 
-## ▶️ Run Tests
+### 🛠️ Admin Dashboard  
+- Full system control  
+- Manage users, roles, companies  
+- Job approval system  
+- Application monitoring  
+- System configuration  
 
-Run all: npx playwright test
+---
 
-Run specific: npx playwright test tests/candidateAccess.spec.ts
---project="Google Chrome" --headed
+## 🔐 User Roles  
+- Guest  
+- Candidate  
+- Company  
+- Administrator  
+- Manager (Restricted Access)  
 
-## 🧪 Test Scenarios
+---
 
-ALL Functional and Non-Functional Testings
+## 🏗️ System Architecture  
+- Web-based (No installation required)  
+- Responsive design (Mobile + Desktop)  
+- Role-Based Access Control (RBAC)  
+- Centralized admin panel  
 
-## 📊 Reports
+---
 
-npx playwright show-report
-
+## 📊 Functionalities  
+- Job browsing & filtering  
+- Job application system  
+- CV upload & validation  
+- Job approval workflow  
+- Application tracking  
+- Reporting & CSV export  
